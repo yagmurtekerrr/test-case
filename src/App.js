@@ -1,23 +1,32 @@
-import logo from './logo.svg';
+import React , {useState} from 'react';
 import './App.css';
+import Extract from './components/account/extracts';
+import Cards from './components/Cards';
+import AddForm from './components/addForm/addForm';
 
-function App() {
+
+
+const App = (props) => {
+  
+  const [setAddForm] = useState("");
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='app'>
+      <div>
+        <h2 className='app_header'>Good Morning</h2>
+        <h2 className='app_name'>Mr. Zayn Malik</h2>
+        <div className='card_component'>
+          <h3>Credit Cards</h3>
+          <div className='cards_all'>
+            <Cards />
+            <Cards />
+            <Cards />
+            <Cards />
+          </div>
+          <button  onClick={setAddForm} type="button" className="btn" >+</button>
+        </div>
+      </div>
+      <Extract />
     </div>
   );
 }

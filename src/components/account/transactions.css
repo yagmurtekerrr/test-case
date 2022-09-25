@@ -1,0 +1,35 @@
+.transactions img{
+    margin-left: 65px;
+    margin-right: 25px;
+}
+
+.transaction_item{
+    display: flex;
+    flex-direction: row;
+    margin-right: 55px;
+    margin-top: -20px;
+}
+.transaction_item h4{
+    margin-right: 55px;
+}
+.transaction_item p{
+    margin-right: 109px;
+    word-break: keep-all;
+}
+
+.equipments{
+    display: flex;
+    flex-direction: row;
+}
+.grocery{
+    display: flex;
+    flex-direction: row;
+}
+.entertainment{
+    display: flex;
+    flex-direction: row;
+}
+.office{
+    display: flex;
+    flex-direction: row;
+}

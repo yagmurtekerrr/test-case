@@ -1,0 +1,20 @@
+
+.balance-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.balance-header{
+    margin-right: 140px;
+}
+.balance-sum{
+    margin-top: 0;
+    margin-bottom: 32px;
+    font-size: 32px;
+    font-weight: 700;
+}
+.balance_select{
+    margin-right: 64px;
+    margin-top: 28px;
+}

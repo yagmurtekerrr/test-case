@@ -1,0 +1,27 @@
+.body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.card {
+    position: relative;
+    width: 312px;
+    height: 174px;
+    color: #fff;
+}
+
+.card__background-image {
+    position: absolute;
+    z-index: -1;
+}
+.card_items{
+    padding: 25px 25px 25px 25px;
+}
+.card_info{
+    display: flex;
+}
+.card-name{
+    margin-right:95px ;
+}
