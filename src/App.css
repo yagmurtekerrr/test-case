@@ -38,3 +38,8 @@
   margin: 32px 48px 0 48px;
   width: 408px;
 }
+.card_component h3{
+  color:#273240 ;
+  font-size: 20px;
+  font-weight: 500;
+} 

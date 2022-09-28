@@ -14,11 +14,11 @@ const Transactions = () => {
                     <div className="transactions_items">
                         <div className="transaction_item">
                             <h4>Equipments</h4>
-                            <h4>326.800</h4>
+                            <h4 className="transaction_item_right">326.800</h4>
                         </div>
                         <div className="transaction_item">
                             <p>Nov 17</p>
-                            <p>Minimarket Anugrah</p>
+                            <p className="transaction_item_right">Minimarket Anugrah</p>
                         </div>
                     </div>
                 </div>
@@ -27,11 +27,11 @@ const Transactions = () => {
                     <div className="transactions_items">
                         <div className="transaction_item">
                             <h4>Grocery</h4>
-                            <h4>326.800</h4>
+                            <h4 className="transaction_item_right">326.800</h4>
                         </div>
                         <div className="transaction_item">
                             <p>Nov 17</p>
-                            <p>Minimarket Anugrah</p>
+                            <p className="transaction_item_right">Minimarket Anugrah</p>
                         </div>
                     </div>
                 </div>
@@ -40,11 +40,11 @@ const Transactions = () => {
                     <div className="transactions_items">
                         <div className="transaction_item">
                             <h4>Entertainment</h4>
-                            <h4>326.800</h4>
+                            <h4 className="transaction_item_right">326.800</h4>
                         </div>
                         <div className="transaction_item">
                             <p>Nov 17</p>
-                            <p>Minimarket Anugrah</p>
+                            <p className="transaction_item_right">Minimarket Anugrah</p>
                         </div>
                     </div>
                 </div>
@@ -53,11 +53,11 @@ const Transactions = () => {
                     <div className="transactions_items">
                         <div className="transaction_item">
                             <h4>Office Items</h4>
-                            <h4>326.800</h4>
+                            <h4 className="transaction_item_right">326.800</h4>
                         </div>
                         <div className="transaction_item">
                             <p>Nov 17</p>
-                            <p>Minimarket Anugrah</p>
+                            <p className="transaction_item_right">Minimarket Anugrah</p>
                         </div>
                     </div>
                 </div>

@@ -2,19 +2,21 @@
     margin-left: 65px;
     margin-right: 25px;
 }
-
 .transaction_item{
     display: flex;
     flex-direction: row;
-    margin-right: 55px;
-    margin-top: -20px;
+    justify-content: space-between;
+    margin-top: -26px;
 }
-.transaction_item h4{
-    margin-right: 55px;
+.transaction_item_right{
+    margin-bottom: 36px;
+    margin-right: 62px;
 }
+
 .transaction_item p{
-    margin-right: 109px;
+    margin-top: 8px;
     word-break: keep-all;
+    justify-content: space-between;
 }
 
 .equipments{

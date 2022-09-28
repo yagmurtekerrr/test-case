@@ -1,0 +1,57 @@
+.addForm_component{
+    position: fixed;
+    padding: 20px 50px 47px 50px ;
+    width: 443px;
+    height: 491;
+    background-color: #fff;
+    margin: auto;
+    vertical-align: middle;
+    
+}
+.addForm_img{
+    margin-top: 20px;
+    margin-right: 20px;
+    display: block;
+    margin-left: auto;
+}
+.addForm_label{
+    display: flex;
+    flex-direction: column;
+}
+.addForm_component h3{
+    text-align: center;
+}
+.addForm_label{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    margin-bottom: 4px;
+}
+.addForm_component .label_top{
+    padding: 12px 75px 12px 25px;
+    border: 1px solid #E8EAEB;
+    border-radius: 8px;
+}
+.secondary_label{
+    display: flex;
+}
+.label_btn{
+    padding: 14px 138px 14px 138px;
+    background-color: #246BFD;
+    border: none;
+    border-radius: 8px;
+    margin-top: 32px;
+    color: #fff;
+}
+.addForm_component .label_security{
+    padding: 12px 24px 12px 24px ;
+    border: 1px solid #E8EAEB;
+    border-radius: 8px;
+    margin-right: 16px;
+}
+.addForm_component .label_date{
+    padding: 12px 12px 12px 24px ;
+    border: 1px solid #E8EAEB;
+    border-radius: 8px;
+    margin-right: 16px;
+}

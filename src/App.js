@@ -2,13 +2,11 @@ import React , {useState} from 'react';
 import './App.css';
 import Extract from './components/account/extracts';
 import Cards from './components/Cards';
-import AddForm from './components/addForm/addForm';
-
-
+import AddForm from './components/addForm/AddForm';
 
 const App = (props) => {
   
-  const [setAddForm] = useState("");
+  const [ isOpenAddForm, setIsOpenAddForm] = useState(true);
 
   return (
     <div className='app'>
@@ -23,10 +21,11 @@ const App = (props) => {
             <Cards />
             <Cards />
           </div>
-          <button  onClick={setAddForm} type="button" className="btn" >+</button>
+          <button  className="btn" onClick={setIsOpenAddForm} type="button" >+</button>
         </div>
       </div>
       <Extract />
+      <AddForm/>
     </div>
   );
 }
